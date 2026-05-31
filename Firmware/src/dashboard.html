@@ -1,0 +1,41 @@
+#include <Arduino.h>
+
+const char *html = R"(
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>:3</title>
+    <style>
+
+    </style>
+</head>
+<body>
+
+    <h1>Soil Meter Readings:</h1>
+
+    <div id="reading">67%</div>
+
+    <script>
+    const d = setInterval(function() {
+      let values = 0;
+      
+      fetch(window.location.href+"data")
+      .then(res => {
+        return res.json();
+      }).catch(err => {
+        console.log(err);
+      })
+      .then(data => {
+        console.log(data);
+        values = data;
+        document.getElementById("reading").textContent = values+"%";
+      }).catch(err => {
+        console.log(err);
+      })
+    }, 2500);
+    </script>
+</body>
+</html>
+)";
