@@ -1,5 +1,7 @@
 # SoilMeter
-is an average soil moisture meter. Stick it in soil and it will tell you how wet it is relative to the atmosphere around it. I made this primarily beacuse I have a plant in my room and I hate checking the soil moisture with my fingers. I had a spare AliExpress soil moisture sensor lying around, so I figured this project would be a good opportunity to use it. 
+is an average soil moisture meter. Stick it in soil and it will tell you how wet it is relative to the atmosphere around it. There is also a hidden feature that hosts a web server that displays the moisture readings. 
+<br>
+I made this primarily beacuse I have a plant in my room and I hate checking the soil moisture with my fingers. I had a spare AliExpress soil moisture sensor lying around, so I figured this project would be a good opportunity to use it. 
 <br><br>
 <img width="712" alt="image" src="https://github.com/user-attachments/assets/4adbf557-3972-4e63-90a2-e3c79a64e06b" />
 <img width="712" alt="image" src="https://github.com/user-attachments/assets/ab90d291-fe01-45f5-8649-539d8b3e63f5" />
