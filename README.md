@@ -12,6 +12,7 @@ I made this primarily beacuse I have a plant in my room and I hate checking the 
 
 
 # Wiring
+<img width="4000" height="3000" alt="image" src="https://github.com/user-attachments/assets/5b495fa4-ec48-470d-9594-14d61466d703" />
 <img width="712" alt="image" src="https://github.com/user-attachments/assets/edc903d5-6520-427d-8dee-d4dc98f00459" />
 <img width="712" height="954" alt="image" src="https://github.com/user-attachments/assets/f4118f9f-ec2b-4d2a-b41b-819c18afd74a" />
 
